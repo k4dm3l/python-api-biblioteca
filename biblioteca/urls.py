@@ -25,6 +25,6 @@ router.register(r'autores', AutorViewSet)
 router.register(r'libros', LibroViewSet)
 
 urlpatterns = [
-    path('', include(router.urls))
-    url(r'^admin/', admin.site.urls),
+   path('', include(router.urls)),
+   path('admin/', admin.site.urls),
 ]
